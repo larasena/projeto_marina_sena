@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-img {
+.header img {
     width: 8.75vh;
     height: 8.80vh;
     margin-left: 20vw;

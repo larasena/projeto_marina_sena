@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from './componentes/Header';
+import Home from './componentes/Home';
+
 
 function App(){
     return(
-        <Header></Header>
+        <Home></Home>
     )   
 }
 
