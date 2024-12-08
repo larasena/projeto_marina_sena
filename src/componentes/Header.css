@@ -1,47 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
 *{
     margin: 0;
     padding: 0;
 }
 
-.header_section{
+.header_section {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center; 
+    align-items: center;
     justify-items: start;
+    box-sizing: border-box;
 }
 
-img{
-    width: 60.82px;
-    height: 61.17px;
-    margin-left: 480px;
-    margin-top: 72px;
+img {
+    width: 8.75vh;
+    height: 8.80vh;
+    margin-left: 20vw;
+    margin-top: 10.35vh;
 }
 
 .menu {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.43vh;
+    width: 100%;  /* Garante que o menu ocupe toda a largura disponível */
 }
 
-.menu li{
+.menu li {
     list-style: none;
-    margin-top: 72px;
+    margin-top: 10.35vh;
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
-    padding: 20px;
-    margin: 10px;
+    padding: 2.87vh;
+    margin: 1.43vh;
     color: #D087BE;
     cursor: pointer;
     transition: color 500ms linear, transform 500ms ease;
     font-family: "Open Sans", sans-serif;
-    font-size: 18px;
+    font-size: 2.58vh;
     font-weight: 600;
 }
 
-.menu li a:hover{
+.menu li a:hover {
     color: #00679E;
     transform: scale(1.2);
 }
