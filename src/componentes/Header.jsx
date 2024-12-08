@@ -1,21 +1,23 @@
 import React from "react";
 import logo from "../images/logo.png";
+import './Header.css';
 
 
 function Header(){
     return(
-        <section>
-            <div>
-                <img src={logo} alt="logo" />
-            </div>
-
-            <div>
-                <a href="#inicio">Início</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#servicos">Serviços</a>
-                <a href="#contato">Contato</a>
-            </div>
-
+        <section className="header_section">
+            <header className="header">
+                <a href="/"><img src={logo} alt="logo"/></a>
+            </header>
+            
+            <nav>
+                <ul className="menu">
+                    <li><a href="#inicio">Início</a></li>
+                     <li><a href="#sobre">Sobre</a></li>   
+                     <li><a href="#servicos">Serviços</a></li>   
+                     <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </section>
     )
 }
