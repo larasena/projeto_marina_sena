@@ -1,6 +1,7 @@
 import React from 'react';
 import porqueterapia from '../images/porqueterapia.webp';
 import './PorqueFazerTerapia.css';
+import ConhecaMeusServicos from './ConhecaMeusServicos';
 
 function PorqueFazerTerapia(){
     return(
@@ -24,6 +25,8 @@ function PorqueFazerTerapia(){
             <div className='porque_fazer_terapia_img'>
                 <img src={porqueterapia} alt="poltrona" />
             </div>
+
+            <ConhecaMeusServicos></ConhecaMeusServicos>
         </section>
     )
 }
