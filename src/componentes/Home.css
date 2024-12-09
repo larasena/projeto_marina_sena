@@ -66,10 +66,16 @@
     padding-right: 4%;
     padding-top:2%;
     padding-bottom: 2%;
-    border-radius: 12%;
+    border-radius: calc(1rem + 2vmin);
     color: #FFFFFF;
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
+    transition: color 500ms linear, transform 500ms ease;
+}
+
+
+.home_texto a:hover{
+    transform: scale(1.2);
 }
 
 
