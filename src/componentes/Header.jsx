@@ -7,7 +7,7 @@ function Header(){
     return(
         <section className="header_section">
             <header className="header">
-                <a href="/"><img src={logo} alt="logo"/></a>
+                <a href="/" ><img className="logo" src={logo} alt="logo"/></a>
             </header>
             
             <nav>

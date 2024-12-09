@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,23 +7,27 @@
 
 .header_section {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-items: start;
     box-sizing: border-box;
 }
 
-.header img {
+.logo {
     width: 8.75vh;
     height: 8.80vh;
-    margin-left: 20vw;
+    margin-left: 30vw;
     margin-top: 10.35vh;
 }
 
+nav{
+    margin-left: 30vh;
+}
+
 .menu {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 1.43vh;
     width: 100%;  /* Garante que o menu ocupe toda a largura disponível */
 }
