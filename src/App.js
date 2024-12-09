@@ -1,10 +1,16 @@
 import React from 'react';
 import Home from './componentes/Home';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import PorqueFazerTerapia from './componentes/PorqueFazerTerapia';
+
 
 function App(){
     return(
-        <Home></Home>
+        <div>
+            <Home></Home>
+            <PorqueFazerTerapia></PorqueFazerTerapia>
+
+        </div>
+        
     )   
 }
 
