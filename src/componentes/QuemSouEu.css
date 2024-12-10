@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.quem_sou_eu_section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;          
+    background: linear-gradient(to bottom, #D5B8E71A, #A17AB97A);  
+}
+
+.quem_sou_eu_itens{
+    display: flex;
+    flex-wrap: nowrap;  
+    column-gap: 5%;
+}
+
+.quem_sou_eu_img{
+    width: 23.96%;
+    height: 100.00%;
+    border-radius: 2.60%;
+    margin-top: 4.97%;
+    margin-left: 17.74%
+}
+
+.quem_sou_eu_textos{
+    flex-wrap: wrap;
+    margin-top: 4.97%;
+    color: #6B5876EB;
+    width: 45%;
+}
+
+.quem_sou_eu_textos h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.25em;
+    font-weight: 700;
+    padding-bottom: 3%;
+    color: #D087BE;
+}
+
+.quem_sou_eu_textos p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 5%;
+    color: #503E4B;
+}
+
+.quem_sou_eu_textos a {
+    align-self: center;
+    text-decoration: none;
+    background-color: #A17AB9EB;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: calc(1rem + 2vmin);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    transition: color 500ms linear, transform 500ms ease;
+    display: inline-block; /* Adiciona esta linha para permitir o aumento do tamanho */
+}
+
+.quem_sou_eu_textos a:hover {
+    transform: scale(1.2);
+    /* Para que o elemento não ultrapasse os limites, use a propriedade abaixo */
+    transform-origin: center; /* Faz a expansão a partir do centro do link */
+}
