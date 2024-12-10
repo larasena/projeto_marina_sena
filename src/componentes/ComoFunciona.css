@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.como_funciona_section{
+    padding-top: 2%;
+    background-color:#D5B8E71A;
+    padding-top: 4.97%;
+}
+
+.como_funciona_itens{
+    margin-left: 26%;
+    margin-right: 26%;
+    padding-bottom: 3%;
+}
+
+.como_funciona_itens h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.25em;
+    font-weight: 700;
+    color: #D087BE;
+    padding-bottom:3%;
+}
+
+.como_funciona_itens li{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #503E4B;
+}
