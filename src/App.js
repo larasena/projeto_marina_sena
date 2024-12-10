@@ -6,6 +6,7 @@ import QuemSouEu from './componentes/QuemSouEu';
 import ComoFunciona from './componentes/ComoFunciona';
 import Depoimentos from './componentes/Depoimentos';
 import RedesSociais from './componentes/RedesSociais';
+import Footer from './componentes/Footer';
 
 
 function App(){
@@ -18,6 +19,7 @@ function App(){
             <ComoFunciona></ComoFunciona>
             <Depoimentos></Depoimentos>
             <RedesSociais></RedesSociais>
+            <Footer></Footer>
         </div>
         
     )   
