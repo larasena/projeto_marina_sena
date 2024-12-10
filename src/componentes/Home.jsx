@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import perfil from '../images/perfil.webp';
+import jornada from '../images/jornada.webp';
 import './Home.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -12,7 +12,7 @@ function Home(){
             </div>
             
             <div className='home_itens'>
-                <img className='img_perfil' src={perfil} alt="perfil" />
+                <img className='img_perfil' src={jornada} alt="jornada" />
 
                 <div className='home_texto'>
                     <h1>PSICÓLOGA</h1>

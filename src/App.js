@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './componentes/Home';
 import PorqueFazerTerapia from './componentes/PorqueFazerTerapia';
 import ConhecaMeusServicos from './componentes/ConhecaMeusServicos';
+import QuemSouEu from './componentes/QuemSouEu';
 
 
 function App(){
@@ -10,7 +11,7 @@ function App(){
             <Home></Home>
             <PorqueFazerTerapia></PorqueFazerTerapia>
             <ConhecaMeusServicos></ConhecaMeusServicos>
-
+            <QuemSouEu></QuemSouEu>
         </div>
         
     )   
