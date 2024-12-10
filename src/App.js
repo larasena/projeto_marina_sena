@@ -4,6 +4,7 @@ import PorqueFazerTerapia from './componentes/PorqueFazerTerapia';
 import ConhecaMeusServicos from './componentes/ConhecaMeusServicos';
 import QuemSouEu from './componentes/QuemSouEu';
 import ComoFunciona from './componentes/ComoFunciona';
+import Depoimentos from './componentes/Depoimentos';
 
 
 function App(){
@@ -14,6 +15,7 @@ function App(){
             <ConhecaMeusServicos></ConhecaMeusServicos>
             <QuemSouEu></QuemSouEu>
             <ComoFunciona></ComoFunciona>
+            <Depoimentos></Depoimentos>
         </div>
         
     )   

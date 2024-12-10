@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+.depoimentos_section{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #D5B8E71A; /* Cor de fundo da seção */
+    padding-bottom: 3%;
+}
+
+.depoimentos-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .depoimentos-container h2 {
+    font-family: "Open Sans", sans-serif;
+    color: #D087BE; /* Cor do título */
+    font-size: 2.25em;
+    font-weight: 700;
+  }
+  
+  .depoimento {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    color: #503E4B;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+  }
+  
+  .slick-prev, .slick-next {
+    color: #D087BE ; /* Cor das setas de navegação */
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    color: #B073A0; /* Cor das setas ao passar o mouse */
+  }
+  
+  .slick-dots li button:before {
+    color: #D087BE; /* Cor dos pontos */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #B073A0; /* Cor do ponto ativo */
+  }
+
+  .p_final{
+    padding-top: 4%;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #D087BE;
+  }
+  
