@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conheca_meus_servicos_section{
+    padding-top: 2%;
+    background-color:#D5B8E71A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conheca_meus_servicos_textos h1{
+    color: #D087BE;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.25em;
+    font-weight: 700;
+}
+
+.texto_p{
+    max-width: 860px;
+    color: #503E4B;
+    text-align: center;
+    padding-bottom: 2%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.conheca_meus_servicos_link{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas com larguras iguais */
+    gap: 3%; /* Espaço entre os itens */
+    row-gap: 25%;
+    justify-content: center; /* Centraliza o grid horizontalmente */
+    align-items: start; /* Alinha os itens ao topo */
+    grid-auto-rows: minmax(80%, auto); 
+
+    padding-bottom: 10%;
+}
+
+.conheca_meus_servicos_link a{
+    text-decoration: none;
+    color: #D087BE;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #00000030; /* Sombra */
+    border-radius: calc(1rem + 0.5vmin); /* Bordas arredondadas */
+    
+    display: flex; /* Flex para centralizar conteúdo dentro do link */
+    justify-content: center; /* Centraliza o texto horizontalmente */
+    align-items: center; /* Centraliza o texto verticalmente */
+    text-align: center; /* Garante que o texto esteja centralizado */
+    height: 100%; /* Faz com que todos os itens ocupem a mesma altura */
+    cursor: pointer;
+    transition: color 500ms linear, transform 500ms ease;
+}
+
+
+.conheca_meus_servicos_link a:hover{
+    transform: scale(1.1);
+}
