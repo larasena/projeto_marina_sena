@@ -5,6 +5,7 @@ import ConhecaMeusServicos from './componentes/ConhecaMeusServicos';
 import QuemSouEu from './componentes/QuemSouEu';
 import ComoFunciona from './componentes/ComoFunciona';
 import Depoimentos from './componentes/Depoimentos';
+import RedesSociais from './componentes/RedesSociais';
 
 
 function App(){
@@ -16,6 +17,7 @@ function App(){
             <QuemSouEu></QuemSouEu>
             <ComoFunciona></ComoFunciona>
             <Depoimentos></Depoimentos>
+            <RedesSociais></RedesSociais>
         </div>
         
     )   

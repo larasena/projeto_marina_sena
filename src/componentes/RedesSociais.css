@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.redes_sociais_section{
+    background-color: #D5B8E71A;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 3%;
+}
+
+.redes_sociais_botao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #6B5876EB;
+}
+
+.redes_sociais_botao a{
+    align-self: center;
+    text-decoration: none;
+    background-color: #A17AB9EB;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top:1%;
+    padding-bottom: 1%;
+    border-radius: calc(1rem + 2vmin);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    transition: color 500ms linear, transform 500ms ease;
+}
+
+.redes_sociais_botao a:hover{
+    transform: scale(1.2);
+}
+
+.redes_sociais_icones{
+    display: flex;
+    align-self: center;
+    padding-top: 3%;
+    gap: 6%;
+    justify-content: center;   /* Alinha os ícones horizontalmente */
+    align-items: center; 
+}
+
+.redes_sociais_icones p{
+    white-space: nowrap;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    color: #503E4B;
+}
+
+.redes_sociais_icones  i{
+    color: #9747FF;
+    font-size: 2em;
+    transition: color 500ms linear, transform 500ms ease;
+}
+
+.redes_sociais_icones  i:hover{
+    color: #00679E;
+    font-size: 2em;
+}
