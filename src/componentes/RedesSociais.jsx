@@ -5,11 +5,10 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 function RedesSociais(){
     return(
         <section className='redes_sociais_section'>
-            <div className='redes_sociais_botao'>
-            <a href="https://www.figma.com/design/NnVv8IzWZLrrxfIp5Dj0Og/Untitled?node-id=0-1&t=8dXB4VlIucAOBHvV-1" target="_blank" rel="noopener noreferrer">
+            {/*  <div className='redes_sociais_botao'>
+             <a href="https://www.figma.com/design/NnVv8IzWZLrrxfIp5Dj0Og/Untitled?node-id=0-1&t=8dXB4VlIucAOBHvV-1" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-whatsapp"></i> Agende sua consulta</a>
-            </div>
-
+            </div> */}
 
             <div className='redes_sociais_icones'>
 

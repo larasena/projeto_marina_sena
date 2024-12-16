@@ -63,11 +63,5 @@
     align-items: center; /* Centraliza o texto verticalmente */
     text-align: center; /* Garante que o texto esteja centralizado */
     height: 100%; /* Faz com que todos os itens ocupem a mesma altura */
-    cursor: pointer;
-    transition: color 500ms linear, transform 500ms ease;
 }
 
-
-.conheca_meus_servicos_link a:hover{
-    transform: scale(1.1);
-}
