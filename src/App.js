@@ -7,6 +7,7 @@ import ComoFunciona from './componentes/ComoFunciona';
 import Depoimentos from './componentes/Depoimentos';
 import RedesSociais from './componentes/RedesSociais';
 import Footer from './componentes/Footer';
+import Localizacao from './componentes/Localizacao';
 
 
 function App(){
@@ -18,6 +19,7 @@ function App(){
             <QuemSouEu></QuemSouEu>
             <ComoFunciona></ComoFunciona>
             <Depoimentos></Depoimentos>
+            <Localizacao></Localizacao>
             <RedesSociais></RedesSociais>
             <Footer></Footer>
         </div>
