@@ -1,11 +1,32 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../images/logo.png";
+
 import './Header.css';
 
 
 function Header(){
+
+    const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollThreshold = 50; // Ajuste o valor conforme necessário
+      if (window.scrollY > scrollThreshold) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+
     return(
-        <section className="header_section">
+        <section className={`header_section ${isScrolled ? "scrolled" : ""}`}>
             <header className="header">
                 <a href="/" ><img className="logo" src={logo} alt="logo"/></a>
             </header>

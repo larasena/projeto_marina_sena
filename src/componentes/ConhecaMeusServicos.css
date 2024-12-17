@@ -27,7 +27,11 @@
 }
 
 .texto_p{
-    max-width: 860px;
+    width: 860px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     color: #503E4B;
     text-align: center;
     padding-bottom: 3%;
