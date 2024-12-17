@@ -12,13 +12,13 @@
     align-items: center;
     justify-items: start;
     box-sizing: border-box;
-   position: fixed;
+    position: fixed;
    
    transition: background-color 0.3s ease; /* Transição suave */
 }
 
 .header_section.scrolled {
-    background-color: #A17AB97A; /* Cor específica desejada */
+    background-color: #ffffffE6; /* Cor específica desejada */
   }
 
 .logo {
