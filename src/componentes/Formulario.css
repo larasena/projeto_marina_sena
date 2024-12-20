@@ -68,6 +68,17 @@ button:hover{
     transform: scale(1.1);
 }
 
+.success-message {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    color:#8F7C8B ;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+  }
+
 
 /*RESPONSIVIDADE*/
 

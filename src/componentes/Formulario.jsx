@@ -1,16 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react'; // Importando useState
 import { useForm } from 'react-hook-form';
 import './Formulario.css';
 
 function Formulario() {
   const { register, handleSubmit, reset } = useForm();
+  const [isSubmitted, setIsSubmitted] = useState(false); // Agora está correto
 
   const onSubmit = (data) => {
     console.log(data);
-    // Aqui você pode enviar os dados para um servidor ou realizar outra ação
+    // Atualiza o estado para exibir a mensagem de sucesso
+    setIsSubmitted(true);
 
     // Limpar os campos após o envio
     reset();
+    
+    // Limitar o tempo de exibição da mensagem de sucesso
+    setTimeout(() => setIsSubmitted(false), 5000);
   };
 
   return (
@@ -38,6 +43,12 @@ function Formulario() {
         />
         <button type="submit">Enviar</button>
       </form>
+
+      {isSubmitted && (
+        <p className="success-message">
+          Formulário enviado com sucesso! Sua resposta chegará em aproximadamente 2 dias úteis.
+        </p>
+      )}
     </section>
   );
 }
