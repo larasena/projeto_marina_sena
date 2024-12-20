@@ -57,3 +57,46 @@
     color: #D087BE;
   }
   
+
+  
+/*RESPONSIVIDADE*/
+
+@media (max-width: 1150px) {
+  
+  .depoimentos-container h2 {
+    font-size: 2em;
+  }
+  
+  .depoimento {
+    font-size: 0.9em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+
+  .p_final{
+    padding-top: 5%;
+    font-size: 1.4em;
+  }
+ 
+}
+
+
+@media (max-width: 750px) {
+
+  .depoimentos-container h2 {
+    font-size: 1.8em;
+  }
+  
+  .depoimento {
+    font-size: 0.8em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+
+  .p_final{
+    padding-top: 7%;
+    font-size: 1em;
+  }
+}
