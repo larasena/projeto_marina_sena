@@ -74,3 +74,82 @@
     /* Para que o elemento não ultrapasse os limites, use a propriedade abaixo */
     transform-origin: center; /* Faz a expansão a partir do centro do link */
 }
+
+
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 1150px) {
+        
+    .quem_sou_eu_itens{
+        flex-wrap: wrap;
+    }
+    
+    .quem_sou_eu_img{
+        width: 23.96%;
+        height: 100.00%;
+        border-radius: 2.60%;
+        margin-top: 4.97%;
+        margin-left: 17.74%
+    }
+    
+    .quem_sou_eu_textos{
+        flex-wrap: wrap;
+        margin-top: 1.97%;
+        width: 70%;
+        margin-right: 20%;
+        margin-left: 17.74%
+    }
+    
+    .quem_sou_eu_textos h1{
+        font-size: 2em;
+        padding-bottom: 2%;
+    }
+    
+    .quem_sou_eu_textos p{
+        font-size: 0.9em;
+        padding-bottom: 3%;
+    }
+    
+    .quem_sou_eu_textos a {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+    }
+    
+    .quem_sou_eu_textos a:hover {
+        transform: scale(1.1);
+        /* Para que o elemento não ultrapasse os limites, use a propriedade abaixo */
+        transform-origin: center; /* Faz a expansão a partir do centro do link */
+    }
+   
+  }
+
+
+@media (max-width: 750px) {
+
+    
+    .quem_sou_eu_textos h1{
+        font-size: 1.8em;
+        padding-bottom: 2%;
+    }
+    
+    .quem_sou_eu_textos p{
+        font-size: 0.8em;
+        padding-bottom: 2%;
+    }
+    
+    .quem_sou_eu_textos a {
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    .quem_sou_eu_textos a:hover {
+        transform: scale(1.1);
+        /* Para que o elemento não ultrapasse os limites, use a propriedade abaixo */
+        transform-origin: center; /* Faz a expansão a partir do centro do link */
+    }
+}
