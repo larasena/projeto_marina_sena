@@ -33,3 +33,34 @@
     font-weight: 400;
     color: #503E4B;
 }
+
+
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 1150px) {
+
+    
+    .como_funciona_itens h1{
+        font-size: 2em;
+        padding-bottom:3%;
+    }
+    
+    .como_funciona_itens li{
+        font-size: 0.9em;
+    }
+   
+  }
+
+
+@media (max-width: 750px) {
+
+    .como_funciona_itens h1{
+        font-size: 1.8em;
+        padding-bottom:3%;
+    }
+    
+    .como_funciona_itens li{
+        font-size: 0.8em;
+    }
+}
