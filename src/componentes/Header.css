@@ -13,8 +13,7 @@
     justify-items: start;
     box-sizing: border-box;
     position: fixed;
-   
-   transition: background-color 0.3s ease; /* Transição suave */
+    transition: background-color 0.3s ease; /* Transição suave */
 }
 
 .header_section.scrolled {
@@ -60,3 +59,65 @@ nav{
     color: #00679E;
     transform: scale(1.2);
 }
+
+
+
+/*RESPONSIVIDADE*/
+
+
+@media (max-width: 1150px) {
+
+    .header_section{
+        position: relative;
+    }
+
+    .logo {
+        margin-left: 20vw;
+    }
+}
+
+@media (max-width: 910px) {
+
+    .header_section{
+        position: relative;
+    }
+
+    .menu {
+        gap: 0vh;
+    }
+
+    .menu li a {
+        padding: 1.5vh;
+        
+        font-size: 2.58vh;
+        font-weight: 600;
+    }
+
+    .logo {
+        margin-left: 15vw;
+    }
+
+}
+
+
+@media (max-width: 750px) {
+
+    .header_section{
+        position: relative;
+    }
+
+    .menu li a {
+        
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+
+    .logo {
+        width: 6.75vh;
+        height: 6.80vh;
+        margin-left: 15vw;
+        margin-top: 5.35vh;
+    }
+
+}
+
