@@ -59,3 +59,84 @@
 }
 
 
+
+/*RESPONSIVIDADE*/
+
+
+@media (max-width: 1150px) {
+
+    .porque_fazer_terapia_section{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-top: 3%;
+    }
+
+    .porque_fazer_terapia_textos{
+        width: 70%;  
+    }
+
+    .porque_fazer_terapia_textos h1{
+        font-size: 2em;
+    }
+    
+    .porque_fazer_terapia_textos p{
+        font-size: 0.9em;
+        margin-top: 3%;
+        margin-bottom: 3%;
+
+    }
+    
+    .porque_fazer_terapia_textos li{
+        font-size: 0.9em;
+    }
+    
+    .porque_fazer_terapia_img img{
+        width: 24%;
+        height: auto;
+        border-radius: 2.60%;
+        margin-left: 17.74%;
+        margin-top: 3%;
+    }
+    
+}
+
+
+
+@media (max-width: 750px) {
+
+    .porque_fazer_terapia_section{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-top: 1%;
+    }
+
+    .porque_fazer_terapia_textos{
+        width: 70%;  
+    }
+
+    .porque_fazer_terapia_textos h1{
+        font-size:1.8em;
+    }
+    
+    .porque_fazer_terapia_textos p{
+        font-size: 0.8em;
+        margin-top: 1%;
+        margin-bottom: 1%;
+
+    }
+    
+    .porque_fazer_terapia_textos li{
+        font-size: 0.8em;
+    }
+    
+    .porque_fazer_terapia_img img{
+        width: 24%;
+        height: auto;
+        border-radius: 2.60%;
+        margin-left: 17.74%;
+        margin-top: 2%;
+    }
+
+}
