@@ -144,6 +144,7 @@
     .quem_sou_eu_textos p{
         font-size: 0.8em;
         padding-bottom: 2%;
+        width: 100%;
     }
     
     .quem_sou_eu_textos a {

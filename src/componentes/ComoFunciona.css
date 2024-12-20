@@ -40,6 +40,11 @@
 
 @media (max-width: 1150px) {
 
+    .como_funciona_itens{
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 3%;
+    }
     
     .como_funciona_itens h1{
         font-size: 2em;
