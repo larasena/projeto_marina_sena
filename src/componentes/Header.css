@@ -104,6 +104,11 @@ nav{
 
     .header_section{
         position: relative;
+        
+    }
+
+    nav{
+        margin-left: 10vh;
     }
 
     .menu li a {
@@ -120,4 +125,5 @@ nav{
     }
 
 }
+
 
