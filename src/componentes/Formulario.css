@@ -69,6 +69,107 @@ button:hover{
 }
 
 
+/*RESPONSIVIDADE*/
+
+@media (max-width: 1150px) {
+  
+    .form_section{
+        margin-left: 8%
+    }
+    
+    .form_section h1{
+        font-size: 2em;
+
+    }
+    
+    
+    input, textarea {
+        font-size: 0.9em;
+    }
+    
+    ::placeholder{
+        color: #8F7C8B;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1em;
+        font-weight: 700;
+    }
+
+   
+  }
+
+
+  
+  @media (max-width: 950px) {
+  
+    .form_section{
+        margin-left: 0;
+        display: flex; /* Flexbox para centralizar */
+        justify-content: center; /* Centraliza o iframe horizontalmente */
+        align-items: center;
+    }
+
+    
+    .form_section h1{
+        font-size: 1.8em;
+    }
+
+    form {
+        width: 60%;
+    }
+    
+    input, textarea {
+        width: 100%;
+        font-size: 0.9em;
+    }
+    
+    ::placeholder{
+        font-size: 0.9em;
+    }
+    
+    button {
+        width: 30%;
+        margin-top: 4%;
+        padding: 3%;
+        align-self: self-end;
+        margin-right: 3%;
+    
+        font-size: 0.9em;
+
+    }
+    
+  }
+
+  @media (max-width: 750px) {
+
+
+    
+    .form_section h1{
+        font-size: 1.6em;
+    }
+
+    form {
+        width: 50%;
+    }
+    
+    input, textarea {
+        width: 100%;
+        font-size: 0.8em;
+    }
+    
+    ::placeholder{
+        font-size: 0.8em;
+    }
+    
+    button {
+        width: 25%;
+        margin-top: 4%;
+        padding: 3%;
+        align-self: self-end;
+        margin-right: 1%;
+        font-size: 0.8em;
+    }
+    
+  }
 
 
 
