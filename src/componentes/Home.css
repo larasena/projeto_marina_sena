@@ -19,6 +19,7 @@
     display: flex;
     flex-wrap: nowrap;  
     column-gap: 5%;
+    padding-top: 8%;
 }
 
 .img_perfil{
@@ -36,6 +37,7 @@
     margin-top: 4.97%;
     color: #6B5876EB;
     width: 45%;
+    margin-right: 21%;
 }
 
 .home_texto h1{
