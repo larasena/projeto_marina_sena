@@ -93,6 +93,7 @@
         margin-right: 15%;
     }
     
+    
     .home_texto h1{
         font-size: 1.2em;
         padding-bottom: 2%;
@@ -129,8 +130,14 @@
         flex-wrap: wrap;  
     }
 
+    .img_perfil{
+        width: 60%;
+        order: 2;
+    }
+
     .home_texto{
-        margin-left: 17.74%
+        margin-left: 17.74%;
+        order: 1;
     }
 
     .home_texto h1{
