@@ -70,3 +70,51 @@
     color: #00679E;
     font-size: 2em;
 }
+
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 1150px) {
+
+    
+    .redes_sociais_icones{
+        padding-top: 2%;
+    }
+    
+    .redes_sociais_icones p{
+        font-size: 0.9em;
+    }
+    
+    .redes_sociais_icones  i{
+        font-size: 1.8em;
+    }
+    
+    .redes_sociais_icones  i:hover{
+        font-size: 1.8em;
+    }
+    
+   
+  }
+
+
+  
+  @media (max-width: 750px) {
+    .redes_sociais_icones{
+        padding-top: 1%;
+    }
+    
+    .redes_sociais_icones p{
+        font-size: 0.8em;
+    }
+    
+    .redes_sociais_icones  i{
+        font-size: 1.6em;
+    }
+    
+    .redes_sociais_icones  i:hover{
+        font-size: 1.6em;
+    }
+    
+  }
+
+ 
