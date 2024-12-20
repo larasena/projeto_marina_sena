@@ -18,3 +18,31 @@ footer{
     padding-top: 3%;
     padding-bottom: 3%;
 }
+
+
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 1150px) {
+
+    
+    footer{
+        font-size: 1.2em;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    
+   
+  }
+
+  @media (max-width: 750px) {
+
+    
+    footer{
+        font-size: 1em;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+   
+  }
