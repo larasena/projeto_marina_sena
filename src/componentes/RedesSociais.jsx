@@ -15,7 +15,7 @@ function RedesSociais(){
                 <p>Redes sociais</p>
 
                 <a href="https://www.figma.com/design/NnVv8IzWZLrrxfIp5Dj0Og/Untitled?node-id=0-1&t=8dXB4VlIucAOBHvV-1" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-instagram"></i></a>
+                    <i className="fa-brands fa-instagram"></i></a>
             
                 <a href="https://www.figma.com/design/NnVv8IzWZLrrxfIp5Dj0Og/Untitled?node-id=0-1&t=8dXB4VlIucAOBHvV-1" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-whatsapp"></i></a>
