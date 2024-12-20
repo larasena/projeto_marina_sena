@@ -69,3 +69,59 @@
     height: 100%; /* Faz com que todos os itens ocupem a mesma altura */
 }
 
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 1150px) {
+    
+    .conheca_meus_servicos_textos h1{
+        font-size: 2em;
+        padding-bottom:2%;
+    }
+    
+    .texto_p{
+        padding-bottom: 2%;
+        font-size: 0.9em;   
+        width: 80%;
+        margin: 0 auto;
+
+    }
+    
+    .conheca_meus_servicos_link{
+        gap: 2%; /* Espaço entre os itens */
+        row-gap: 10%;
+        padding-bottom: 8%;
+    }
+    
+    .conheca_meus_servicos_link a{
+        font-size: 1.2em;
+
+    }
+  }
+
+
+@media (max-width: 750px) {
+
+    .conheca_meus_servicos_textos h1{
+        font-size: 2em;
+        padding-bottom:2%;
+    }
+    
+    .texto_p{
+        padding-bottom: 1.8%;
+        font-size: 0.8em;   
+        width: 75%;
+        margin: 0 auto;
+
+    }
+    
+    .conheca_meus_servicos_link{
+        gap: 1%; /* Espaço entre os itens */
+        row-gap: 8%;
+        padding-bottom: 7%;
+    }
+    
+    .conheca_meus_servicos_link a{
+        font-size: 0.8em;
+    }
+}
