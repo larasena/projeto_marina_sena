@@ -129,22 +129,27 @@
 
 @media (max-width: 750px) {
 
+
     .quem_sou_eu_img{
-        width: 60%;
+        width: 88%;
         height: 100.00%;
         order:2;
+        margin-left: 3%;
     }
     
     .quem_sou_eu_textos h1{
         font-size: 1.8em;
         padding-bottom: 2%;
         order:1;
+        width: 135%;
+        margin-left: -18%;
     }
     
     .quem_sou_eu_textos p{
         font-size: 0.8em;
         padding-bottom: 2%;
-        width: 100%;
+        width: 135%;
+        margin-left: -18%;
     }
     
     .quem_sou_eu_textos a {

@@ -109,11 +109,15 @@
         display: flex;
         flex-direction: column;
         align-items: start;
-        padding-top: 1%;
+        padding-top: 1%;    
+        flex-wrap: wrap;
+        box-sizing: border-box;
     }
 
     .porque_fazer_terapia_textos{
-        width: 70%;  
+        width: 95%;  
+        margin-left: 3%;
+        padding-top: 10%;
     }
 
     .porque_fazer_terapia_textos h1{
@@ -124,7 +128,8 @@
         font-size: 0.8em;
         margin-top: 1%;
         margin-bottom: 1%;
-
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
     
     .porque_fazer_terapia_textos li{
@@ -132,10 +137,10 @@
     }
     
     .porque_fazer_terapia_img img{
-        width: 60%;
+        width: 88%;
         height: auto;
         border-radius: 2.60%;
-        margin-left: 17.74%;
+        margin-left: 3%;
         margin-top: 2%;
     }
 

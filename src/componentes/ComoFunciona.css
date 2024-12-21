@@ -63,9 +63,11 @@
     .como_funciona_itens h1{
         font-size: 1.8em;
         padding-bottom:3%;
+        
     }
     
     .como_funciona_itens li{
         font-size: 0.8em;
+        width: 100%;
     }
 }

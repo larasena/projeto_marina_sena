@@ -105,14 +105,16 @@
     .conheca_meus_servicos_textos h1{
         font-size: 2em;
         padding-bottom:2%;
+        width: 100%;
     }
     
     .texto_p{
         padding-bottom: 1.8%;
         font-size: 0.8em;   
-        width: 75%;
-        margin: 0 auto;
-
+        width: 94%;
+        margin-left: 3%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
     
     .conheca_meus_servicos_link{
@@ -124,4 +126,22 @@
     .conheca_meus_servicos_link a{
         font-size: 0.8em;
     }
+
+    .conheca_meus_servicos_link{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas com larguras iguais */
+        gap: 3%; /* Espaço entre os itens */
+        row-gap: 8%;
+        justify-content: center; /* Centraliza o grid horizontalmente */
+        align-items: start; /* Alinha os itens ao topo */
+        grid-auto-rows: minmax(60%, auto); 
+        width: 90%;
+        padding-bottom: 10%;
+    }
+    
+    .conheca_meus_servicos_link a{
+        font-size: 0.8em;
+        height: 100%; /* Faz com que todos os itens ocupem a mesma altura */
+    }
+    
 }
