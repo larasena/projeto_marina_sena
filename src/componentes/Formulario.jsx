@@ -1,21 +1,48 @@
-import React, { useState } from 'react'; // Importando useState
+import React, { useState } from 'react'; 
 import { useForm } from 'react-hook-form';
+import emailjs from 'emailjs-com'; // Importando EmailJS
 import './Formulario.css';
 
 function Formulario() {
   const { register, handleSubmit, reset } = useForm();
-  const [isSubmitted, setIsSubmitted] = useState(false); // Agora está correto
+  const [isSubmitted, setIsSubmitted] = useState(false); // Estado para controle da mensagem de sucesso
+  const [isSending, setIsSending] = useState(false); // Estado para controle do envio
+  const [isError, setIsError] = useState(false); // Estado para controle de erro no envio
 
   const onSubmit = (data) => {
-    console.log(data);
-    // Atualiza o estado para exibir a mensagem de sucesso
-    setIsSubmitted(true);
+    if (isSending) return;  // Impede múltiplos envios
 
-    // Limpar os campos após o envio
-    reset();
-    
-    // Limitar o tempo de exibição da mensagem de sucesso
-    setTimeout(() => setIsSubmitted(false), 5000);
+    setIsSending(true);  // Marca que o envio está em andamento
+    setIsSubmitted(false); // Reseta a mensagem de sucesso
+    setIsError(false); // Reseta o erro antes de tentar enviar novamente
+
+    // Enviar os dados via EmailJS
+    emailjs
+      .send(
+        "service_5u8zprk", // Substitua pelo seu Service ID
+        "template_mvhlqru", // Substitua pelo seu Template ID
+        {
+          nome: data.nome,
+          telefone: data.telefone,
+          email: data.email,
+          mensagem: data.mensagem,
+        },
+        "Tg_Eaw7lbzth2tLyA" // Substitua pelo seu User ID
+      )
+      .then(
+        (result) => {
+          console.log('E-mail enviado com sucesso:', result.text);
+          setIsSubmitted(true); // Exibe a mensagem de sucesso
+          reset(); // Limpa os campos
+        },
+        (error) => {
+          console.error('Erro ao enviar e-mail:', error.text);
+          setIsError(true); // Exibe a mensagem de erro
+        }
+      )
+      .finally(() => {
+        setIsSending(false); // Permite novos cliques após o envio
+      });
   };
 
   return (
@@ -41,12 +68,20 @@ function Formulario() {
           {...register('mensagem', { required: true })}
           placeholder="Escreva sua mensagem"
         />
-        <button type="submit">Enviar</button>
+        <button type="submit" disabled={isSending}>Enviar</button>  {/* Desabilita o botão enquanto o envio está em andamento */}
       </form>
 
-      {isSubmitted && (
+      {isSending && <p>Enviando...</p>} {/* Exibe a mensagem de "Enviando..." enquanto o envio está em andamento */}
+
+      {isSubmitted && !isError && (
         <p className="success-message">
-          Formulário enviado com sucesso! Sua resposta chegará em aproximadamente 2 dias úteis.
+          Formulário enviado com sucesso! Sua resposta chegará em aproximadamente 48h úteis.
+        </p>
+      )}
+
+      {isError && (
+        <p className="error-message">
+          Ocorreu um erro ao enviar o formulário. Tente novamente.
         </p>
       )}
     </section>
