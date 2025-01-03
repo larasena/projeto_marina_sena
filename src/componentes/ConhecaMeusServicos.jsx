@@ -3,7 +3,7 @@ import './ConhecaMeusServicos.css';
 
 function ConhecaMeusServicos(){
     return(
-        <section className='conheca_meus_servicos_section'>
+        <section className='conheca_meus_servicos_section' id='servicos'>
             <div className='conheca_meus_servicos_textos'>
                 <h1>Conheça meus serviços</h1>
 

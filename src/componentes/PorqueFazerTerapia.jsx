@@ -5,7 +5,7 @@ import './PorqueFazerTerapia.css';
 
 function PorqueFazerTerapia(){
     return(
-        <section className='porque_fazer_terapia_section'>
+        <section className='porque_fazer_terapia_section' id='sobre'>
             <div className='porque_fazer_terapia_textos'>
                 <h1>Por que fazer terapia?</h1>
 

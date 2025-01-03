@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer(){
     return(
         <footer>
-            <p>Marina Sena, Psicóloga Clínica CRP ??????</p>
+            <p>Marina Sena, Psicóloga Clínica CRP-MG: 04/68597</p>
         </footer>
     )
 }

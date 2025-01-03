@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function Home(){
     return(
-        <section className='home_section'>
+        <section className='home_section' id='inicio'>
             <div>
                 <Header></Header>
             </div>
@@ -22,7 +22,7 @@ function Home(){
                     <p>Ajudo você através de uma escuta ativa a conectar-se consigo 
                         mesmo e a identificar quais são os padrões que estão limitando sua vida.</p>
 
-                    <a href="https://www.figma.com/design/NnVv8IzWZLrrxfIp5Dj0Og/Untitled?node-id=0-1&t=8dXB4VlIucAOBHvV-1" target="_blank" rel="noopener noreferrer">
+                    <a href="https://api.whatsapp.com/send/?phone=5531993165337&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-whatsapp"></i> Agende sua consulta</a>
                 </div>
             </div>

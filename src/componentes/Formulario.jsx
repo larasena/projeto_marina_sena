@@ -19,7 +19,7 @@ function Formulario() {
   };
 
   return (
-    <section className='form_section'>
+    <section className='form_section' id='contato'>
       <h1>Formulário de contato</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
         <input
