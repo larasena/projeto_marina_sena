@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 import logo from "../images/logo.png";
 import './Header.css';
 
@@ -38,10 +39,18 @@ function Header() {
             <div className={`nav_menu_list ${isMenuOpen ? "active" : ""}`}>
                 <nav>
                     <ul className="menu_list">
-                        <li><a href="#inicio">Início</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#contato">Contato</a></li>
+                    <li>
+                            <Link to="inicio" smooth={true} duration={500}>Início</Link>
+                        </li>
+                        <li>
+                            <Link to="sobre" smooth={true} duration={500}>Sobre</Link>
+                        </li>
+                        <li>
+                            <Link to="servicos" smooth={true} duration={500}>Serviços</Link>
+                        </li>
+                        <li>
+                            <Link to="contato" smooth={true} duration={500}>Contato</Link>
+                        </li>
                     </ul>
                 </nav>
             </div>
